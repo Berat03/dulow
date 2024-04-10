@@ -1,6 +1,10 @@
+import DoughnutMain from "../components/charts/doughnutMain.tsx";
 
 export default function HomePage(){
     return (
-        <h1 className="text-3xl">Home Page</h1>
+        <div className="bg-du-purple h-screen ">
+            <DoughnutMain/>
+        </div>
+
     )
 }
