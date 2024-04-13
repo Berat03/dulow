@@ -1,10 +1,13 @@
-import DoughnutMain from "../components/charts/doughnutMain.tsx";
+import background from '../assets/durhamNotMyImageLowContrast.png';
+import LibraryOccupancy from "../components/currentOccupancy.tsx";
 
-export default function HomePage(){
+export default function HomePage() {
     return (
-        <div className="bg-du-purple h-screen ">
-            <DoughnutMain/>
+        <div
+            className="bg-cover bg-center h-screen"
+            style={{backgroundImage: `url(${background})`}}
+        >
+            <LibraryOccupancy/>
         </div>
-
-    )
+    );
 }
